@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../MIPI_rx/Mipi_Byte_Alignment.v" \
+"../../../../../../tb/Mipi_Byte_Alignment_tb/tb_Mipi_Byte_Alignment.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Dec 12 20:39:53 2023
+# Process ID: 14616
+# Current directory: D:/three_verilog/MIPI_DDR3_HDMI/sim/MIPI_trans/MIPI_trans.runs/synth_1
+# Command line: vivado.exe -log MIPI_SIM_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPI_SIM_top.tcl
+# Log file: D:/three_verilog/MIPI_DDR3_HDMI/sim/MIPI_trans/MIPI_trans.runs/synth_1/MIPI_SIM_top.vds
+# Journal file: D:/three_verilog/MIPI_DDR3_HDMI/sim/MIPI_trans/MIPI_trans.runs/synth_1\vivado.jou
+# Running On: LAPTOP-H1858A6E, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16828 MB
+#-----------------------------------------------------------
+source MIPI_SIM_top.tcl -notrace
+Command: synth_design -top MIPI_SIM_top -part xc7a75tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a75t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 424
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1830.957 ; gain = 413.406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MIPI_SIM_top' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Mipi_Byte_Alignment' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mipi_Byte_Alignment' (0#1) [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mipi_Lane_Alignment' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Lane_Alignment.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mipi_Lane_Alignment' (0#1) [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Lane_Alignment.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mipi_Unpacket' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ECC_Calculate_Haming' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/ECC_Calculate_Haming.v:1]
+	Parameter Data_bit_width bound to: 24 - type: integer 
+	Parameter Redundant_bit_width bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ECC_Calculate_Haming' (0#1) [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/ECC_Calculate_Haming.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mipi_Unpacket' (0#1) [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MIPI_SIM_top' (0#1) [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1922.727 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.727 ; gain = 505.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a75tfgg484-1
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.727 ; gain = 505.176
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_Pose_Mipi_Lane_Alignment_Vaild_reg' and it is trimmed from '3' to '2' bits. [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v:47]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.727 ; gain = 505.176
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
++---XORs : 
+	               14 Bit    Wide XORs := 2     
+	               13 Bit    Wide XORs := 4     
++---Registers : 
+	               16 Bit    Registers := 6     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 2     
+	   9 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 10    
+	   8 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 180 (col length:80)
+BRAMs: 210 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 2156.125 ; gain = 738.574
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 2156.125 ; gain = 738.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:19 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     9|
+|3     |LUT1   |    15|
+|4     |LUT2   |     3|
+|5     |LUT3   |    38|
+|6     |LUT4   |    46|
+|7     |LUT5   |    32|
+|8     |LUT6   |    72|
+|9     |FDCE   |    44|
+|10    |FDRE   |   102|
+|11    |IBUF   |    18|
+|12    |OBUF   |    19|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------------+----------------------+------+
+|      |Instance                       |Module                |Cells |
++------+-------------------------------+----------------------+------+
+|1     |top                            |                      |   399|
+|2     |  Mipi_Byte_Alignment_Inst_0   |Mipi_Byte_Alignment   |    83|
+|3     |  Mipi_Byte_Alignment_Inst_1   |Mipi_Byte_Alignment_0 |    81|
+|4     |  Mipi_Lane_Alignment_Inst0    |Mipi_Lane_Alignment   |    86|
+|5     |  Mipi_Unpacket_Inst0          |Mipi_Unpacket         |   111|
+|6     |    ECC_Calculate_Haming_Inst0 |ECC_Calculate_Haming  |    14|
++------+-------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+Synthesis Optimization Complete : Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2156.156 ; gain = 738.605
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2158.980 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2237.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 3dd3c7da
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:24 . Memory (MB): peak = 2237.391 ; gain = 843.684
+INFO: [Common 17-1381] The checkpoint 'D:/three_verilog/MIPI_DDR3_HDMI/sim/MIPI_trans/MIPI_trans.runs/synth_1/MIPI_SIM_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MIPI_SIM_top_utilization_synth.rpt -pb MIPI_SIM_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 12 20:40:25 2023...

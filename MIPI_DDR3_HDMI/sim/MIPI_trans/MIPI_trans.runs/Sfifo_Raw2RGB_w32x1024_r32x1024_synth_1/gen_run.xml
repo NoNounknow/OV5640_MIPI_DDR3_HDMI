@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Sfifo_Raw2RGB_w32x1024_r32x1024_synth_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1702473408">
+  <File Type="PA-TCL" Name="Sfifo_Raw2RGB_w32x1024_r32x1024.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Sfifo_Raw2RGB_w32x1024_r32x1024.vds"/>
+  <File Type="RDS-UTIL" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Sfifo_Raw2RGB_w32x1024_r32x1024.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Sfifo_Raw2RGB_w32x1024_r32x1024_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Sfifo_Raw2RGB_w32x1024_r32x1024">
+    <File Path="$PSRCDIR/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/Sfifo_Raw2RGB_w32x1024_r32x1024.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Sfifo_Raw2RGB_w32x1024_r32x1024"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Sfifo_Raw2RGB_w32x1024_r32x1024">
+    <File Path="$PSRCDIR/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/Sfifo_Raw2RGB_w32x1024_r32x1024.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Sfifo_Raw2RGB_w32x1024_r32x1024"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

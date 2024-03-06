@@ -1,0 +1,34 @@
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_Mipi_Bayer_2_RGB_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L fifo_generator_v13_2_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.tb_Mipi_Bayer_2_RGB xil_defaultlib.glbl 
+# Start time: 21:17:22 on Dec 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_Mipi_Bayer_2_RGB(fast)
+# Loading work.Mipi_Bayer_2_RGB(fast)
+# Loading work.Sfifo_Raw2RGB_w32x1024_r32x1024(fast)
+# Loading fifo_generator_v13_2_7.fifo_generator_vlog_beh(fast)
+# Loading fifo_generator_v13_2_7.fifo_generator_v13_2_7_CONV_VER(fast)
+# Loading fifo_generator_v13_2_7.fifo_generator_v13_2_7_bhv_ver_as(fast)
+# Loading fifo_generator_v13_2_7.fifo_generator_v13_2_7_sync_stage(fast)
+# Loading fifo_generator_v13_2_7.fifo_generator_v13_2_7_bhv_ver_preload0(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+# End time: 21:28:22 on Dec 13,2023, Elapsed time: 0:11:00
+# Errors: 0, Warnings: 0

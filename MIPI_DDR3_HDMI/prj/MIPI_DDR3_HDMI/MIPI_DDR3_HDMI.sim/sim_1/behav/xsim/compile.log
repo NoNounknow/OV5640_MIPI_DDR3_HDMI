@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/ECC_Calculate_Haming.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ECC_Calculate_Haming
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mipi_Byte_Alignment
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Lane_Alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mipi_Lane_Alignment
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mipi_Unpacket
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_dphy_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mipi_dphy_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/IIC_Control/ov5640_cfg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ov5640_cfg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/IIC_Control/ov5640_iic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ov5640_iic
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/MIPI_test_top/MIPI_rx_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPI_rx_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/prj/MIPI_DDR3_HDMI/MIPI_DDR3_HDMI.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,26 @@
+$date
+        2023-Dec-07 22:48:53
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " Axi_Mig_ctrl/Rd_Rst_Sync $end
+$var reg 1 # _TRIGGER $end
+$var reg 1 $ _WINDOW $end
+$var reg 1 % _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+1$
+0%
+$end
+#512
+1"
+1#

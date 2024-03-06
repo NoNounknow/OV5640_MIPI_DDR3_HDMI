@@ -1,0 +1,43 @@
++=====================+=====================+======================================================================================================================================================+
+| Launch Setup Clock  | Launch Hold Clock   | Pin                                                                                                                                                  |
++=====================+=====================+======================================================================================================================================================+
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/r_Pose_Rd_Rst_Sync_reg/D                                                                                                                  |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_index_reg[2]/D                                                                                                                         |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_index_reg[0]/D                                                                                                                         |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_index_reg[1]/D                                                                                                                         |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][69]_srl8/D                                                                                |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[27]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[29]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[4]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[19]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[22]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[15]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[16]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[3]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[6]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[0]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[1]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[5]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[7]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[32]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[13]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[25]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[24]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[11]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[18]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[12]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[17]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[20]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[14]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[23]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[21]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[26]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[28]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[10]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[30]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[31]/CE                                                                                                                   |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[2]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[8]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/rd_base_addr_reg[9]/CE                                                                                                                    |
+| clk_PIXEL_clk_wiz_1 | clk_PIXEL_clk_wiz_1 | DMA_Custom/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[5].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[0]/D |
++---------------------+---------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

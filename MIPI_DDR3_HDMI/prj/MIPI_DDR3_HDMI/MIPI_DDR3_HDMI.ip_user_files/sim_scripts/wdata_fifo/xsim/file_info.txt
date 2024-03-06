@@ -1,0 +1,2 @@
+wdata_fifo.v,verilog,xil_defaultlib,../../../../../../../project_1.gen/sources_1/ip/wdata_fifo/sim/wdata_fifo.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

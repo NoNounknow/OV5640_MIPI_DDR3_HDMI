@@ -1,0 +1,7 @@
+xpm_cdc.sv,systemverilog,xpm,C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_memory.sv,systemverilog,xpm,C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,C:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd,
+axi_lite_ipif_v3_0_vh_rfs.vhd,vhdl,axi_lite_ipif_v3_0_4,../../../ipstatic/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd,
+v_tc_v6_2_vh_rfs.vhd,vhdl,v_tc_v6_2_5,../../../ipstatic/hdl/v_tc_v6_2_vh_rfs.vhd,
+v_tc_0.vhd,vhdl,xil_defaultlib,../../../../MIPI_DDR3_HDMI.gen/sources_1/ip/v_tc_0/sim/v_tc_0.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

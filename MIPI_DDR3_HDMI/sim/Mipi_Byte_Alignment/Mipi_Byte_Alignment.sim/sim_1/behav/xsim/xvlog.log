@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mipi_Byte_Alignment
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/three_verilog/MIPI_DDR3_HDMI/rtl/tb/Mipi_Byte_Alignment_tb/tb_Mipi_Byte_Alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Mipi_Byte_Alignment

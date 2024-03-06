@@ -1,0 +1,270 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/three_verilog/MIPI_DDR3_HDMI/sim/MIPI_trans/MIPI_trans.sim/sim_1/behav/modelsim
+T_opt
+!s110 1702473442
+VOYNJb7oP6C<KXaGacIQFU2
+04 19 4 work tb_Mipi_Bayer_2_RGB fast 0
+04 4 4 work glbl fast 0
+=1-847b57627442-6579aee2-235-25a0
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L fifo_generator_v13_2_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vECC_Calculate_Haming
+!s10a 1700830944
+Z2 !s110 1702472507
+!i10b 1
+!s100 A82B]<0aWZ<66aK?b]X`V1
+I6_G@k_WF15LBbP`Vg9F;?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700830944
+8../../../../../../rtl/MIPI_rx/ECC_Calculate_Haming.v
+F../../../../../../rtl/MIPI_rx/ECC_Calculate_Haming.v
+L0 1
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+Z5 !s108 1702472507.000000
+Z6 !s107 ../../../../../../rtl/tb/tb_padding.v|../../../../MIPI_trans.srcs/sim_1/new/tb_Mipi_SIM.v|../../../../../../rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v|../../../../../../rtl/MIPI_rx/Mipi_raw10_depacker.v|../../../../../../rtl/MIPI_rx/Mipi_Unpacket.v|../../../../../../rtl/MIPI_rx/Mipi_Lane_Alignment.v|../../../../../../rtl/MIPI_rx/Mipi_Byte_Alignment.v|../../../../../../rtl/MIPI_rx/Mipi_Bayer_2_RGB.v|../../../../../../rtl/MIPI_rx/ECC_Calculate_Haming.v|../../../../MIPI_trans.gen/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/sim/Sfifo_Raw2RGB_w32x1024_r32x1024.v|
+Z7 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../MIPI_trans.gen/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/sim/Sfifo_Raw2RGB_w32x1024_r32x1024.v|../../../../../../rtl/MIPI_rx/ECC_Calculate_Haming.v|../../../../../../rtl/MIPI_rx/Mipi_Bayer_2_RGB.v|../../../../../../rtl/MIPI_rx/Mipi_Byte_Alignment.v|../../../../../../rtl/MIPI_rx/Mipi_Lane_Alignment.v|../../../../../../rtl/MIPI_rx/Mipi_Unpacket.v|../../../../../../rtl/MIPI_rx/Mipi_raw10_depacker.v|../../../../../../rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v|../../../../MIPI_trans.srcs/sim_1/new/tb_Mipi_SIM.v|../../../../../../rtl/tb/tb_padding.v|
+!i113 0
+Z8 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@e@c@c_@calculate_@haming
+vglbl
+Z9 !s110 1702473436
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+R3
+R0
+w1665704903
+8glbl.v
+Fglbl.v
+L0 6
+R4
+r1
+!s85 0
+31
+Z10 !s108 1702473436.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vMipi_Bayer_2_RGB
+!s10a 1702472653
+!s110 1702472657
+!i10b 1
+!s100 MB28XjQTEXl^SH^X9eom^1
+IfZca55SBA<dH=me:c??i?0
+R3
+R0
+w1702472653
+8../../../../../../rtl/MIPI_rx/Mipi_Bayer_2_RGB.v
+F../../../../../../rtl/MIPI_rx/Mipi_Bayer_2_RGB.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1702472657.000000
+R6
+R7
+!i113 0
+R8
+R1
+n@mipi_@bayer_2_@r@g@b
+vMipi_Byte_Alignment
+!s10a 1700719821
+R2
+!i10b 1
+!s100 6MJ]Wa==[TW6]2>ha`nH>1
+IBlfWDAAAjjadgKHe6[_XW0
+R3
+R0
+w1700719821
+8../../../../../../rtl/MIPI_rx/Mipi_Byte_Alignment.v
+F../../../../../../rtl/MIPI_rx/Mipi_Byte_Alignment.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@mipi_@byte_@alignment
+vMipi_Lane_Alignment
+!s10a 1700913620
+R2
+!i10b 1
+!s100 MU@MIU[jFWC<k?c_LUHe]3
+ImGN4N;X7MSg4V:<MK?gkT2
+R3
+R0
+w1700913620
+8../../../../../../rtl/MIPI_rx/Mipi_Lane_Alignment.v
+F../../../../../../rtl/MIPI_rx/Mipi_Lane_Alignment.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@mipi_@lane_@alignment
+vMipi_raw10_depacker
+!s10a 1702118726
+R2
+!i10b 1
+!s100 L`blkkk=RUBal1IBQIH@81
+I3<UVDMU1[?im9fzaSZJHK2
+R3
+R0
+w1702118726
+8../../../../../../rtl/MIPI_rx/Mipi_raw10_depacker.v
+F../../../../../../rtl/MIPI_rx/Mipi_raw10_depacker.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@mipi_raw10_depacker
+vMIPI_SIM_top
+!s10a 1702466737
+R2
+!i10b 1
+!s100 M?Oag>PTHAlDOZMiQQCAk1
+IV=9l;59n7VT:k?mPhlLoi2
+R3
+R0
+w1702466737
+8../../../../../../rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v
+F../../../../../../rtl/MIPI_rx/MIPI_test_top/MIPI_SIM_top.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@m@i@p@i_@s@i@m_top
+vMipi_Unpacket
+!s10a 1701228591
+R2
+!i10b 1
+!s100 X[MHm<Kgcb]i;j78aDo282
+Id9N1ml:_`1^cHI]N8U<Tg3
+R3
+R0
+w1701228591
+8../../../../../../rtl/MIPI_rx/Mipi_Unpacket.v
+F../../../../../../rtl/MIPI_rx/Mipi_Unpacket.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@mipi_@unpacket
+vSfifo_Raw2RGB_w32x1024_r32x1024
+R9
+!i10b 1
+!s100 FcO]1k0fjPJ@0XX]fTA5h0
+ID8bL5]d520I??ndMcDh>L3
+R3
+R0
+w1702473408
+8../../../../MIPI_trans.gen/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/sim/Sfifo_Raw2RGB_w32x1024_r32x1024.v
+F../../../../MIPI_trans.gen/sources_1/ip/Sfifo_Raw2RGB_w32x1024_r32x1024/sim/Sfifo_Raw2RGB_w32x1024_r32x1024.v
+L0 56
+R4
+r1
+!s85 0
+31
+R10
+R6
+R7
+!i113 0
+R8
+R1
+n@sfifo_@raw2@r@g@b_w32x1024_r32x1024
+vtb_Mipi_Bayer_2_RGB
+!s10a 1702473188
+!s110 1702473208
+!i10b 1
+!s100 CKj7CWE[]b^Fz6MeGb2aU3
+I0=1l:?gf_9D51oIG4doNL2
+R3
+R0
+w1702473188
+8../../../../../../rtl/tb/tb_padding.v
+F../../../../../../rtl/tb/tb_padding.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1702473208.000000
+R6
+R7
+!i113 0
+R8
+R1
+ntb_@mipi_@bayer_2_@r@g@b
+vtb_Mipi_SIM
+!s10a 1701066953
+R2
+!i10b 1
+!s100 BDNnM^HPl1]9TbfljNk6V0
+I^T:90K5`m8_TJ`W`NSk]D2
+R3
+R0
+w1701066953
+8../../../../MIPI_trans.srcs/sim_1/new/tb_Mipi_SIM.v
+F../../../../MIPI_trans.srcs/sim_1/new/tb_Mipi_SIM.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+ntb_@mipi_@s@i@m

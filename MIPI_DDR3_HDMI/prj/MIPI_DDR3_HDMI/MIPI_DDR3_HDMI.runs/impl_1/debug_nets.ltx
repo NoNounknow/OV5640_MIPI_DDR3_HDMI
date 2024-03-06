@@ -1,0 +1,608 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "100000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "DMA_Custom/ila_0",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "6FD21033A0235B77B4AF394540296EA0",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/Pose_Wr_Rst_Sync",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/wr_base_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[31]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[30]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[29]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[28]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[27]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[26]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[25]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[24]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[23]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[22]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[21]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[20]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[19]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[18]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[17]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[16]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[15]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[14]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[13]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[12]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[11]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[10]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[9]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[8]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[7]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[6]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[5]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[4]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[3]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_base_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/wr_index",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/wr_index[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_index[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/wr_index[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/Aw_running",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/m_axi_awaddr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[31]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[30]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[29]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[28]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[27]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[26]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[25]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[24]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[23]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[22]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[21]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[20]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[19]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[18]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[17]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[16]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[15]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[14]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[13]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[12]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[11]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[10]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[9]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[8]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[7]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[6]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[5]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[4]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[3]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_awaddr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/Pose_Rd_Rst_Sync",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/rd_base_addr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[31]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[30]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[29]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[28]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[27]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[26]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[25]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[24]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[23]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[22]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[21]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[20]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[19]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[18]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[17]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[16]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[15]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[14]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[13]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[12]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[11]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[10]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[9]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[8]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[7]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[6]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[5]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[4]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[3]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_base_addr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe7",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/rd_index",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/rd_index[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_index[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/rd_index[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe8",
+                                "id": 8,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/Ar_running",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe9",
+                                "id": 9,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "DMA_Custom/m_axi_araddr",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[31]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[30]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[29]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[28]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[27]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[26]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[25]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[24]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[23]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[22]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[21]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[20]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[19]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[18]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[17]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[16]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[15]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[14]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[13]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[12]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[11]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[10]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[9]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[8]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[7]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[6]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[5]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[4]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[3]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[2]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[1]"
+                                            },
+                                            {
+                                                "name": "DMA_Custom/m_axi_araddr[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

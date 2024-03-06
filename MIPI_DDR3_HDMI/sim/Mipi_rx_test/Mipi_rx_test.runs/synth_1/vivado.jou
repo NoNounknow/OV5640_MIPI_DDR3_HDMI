@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Dec  5 15:01:33 2023
+# Process ID: 7260
+# Current directory: D:/three_verilog/MIPI_DDR3_HDMI/sim/Mipi_rx_test/Mipi_rx_test.runs/synth_1
+# Command line: vivado.exe -log MIPI_rx_test_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPI_rx_test_top.tcl
+# Log file: D:/three_verilog/MIPI_DDR3_HDMI/sim/Mipi_rx_test/Mipi_rx_test.runs/synth_1/MIPI_rx_test_top.vds
+# Journal file: D:/three_verilog/MIPI_DDR3_HDMI/sim/Mipi_rx_test/Mipi_rx_test.runs/synth_1\vivado.jou
+# Running On: LAPTOP-H1858A6E, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16828 MB
+#-----------------------------------------------------------
+source MIPI_rx_test_top.tcl -notrace

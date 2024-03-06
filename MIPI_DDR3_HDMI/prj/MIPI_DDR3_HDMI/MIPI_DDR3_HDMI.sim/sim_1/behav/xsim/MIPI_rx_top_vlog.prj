@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../rtl/MIPI_rx/ECC_Calculate_Haming.v" \
+"../../../../../../rtl/MIPI_rx/Mipi_Byte_Alignment.v" \
+"../../../../../../rtl/MIPI_rx/Mipi_Lane_Alignment.v" \
+"../../../../../../rtl/MIPI_rx/Mipi_Unpacket.v" \
+"../../../../../../rtl/MIPI_rx/Mipi_dphy_rx.v" \
+"../../../../../../rtl/MIPI_rx/IIC_Control/ov5640_cfg.v" \
+"../../../../../../rtl/MIPI_rx/IIC_Control/ov5640_iic.v" \
+"../../../../../../rtl/MIPI_rx/MIPI_test_top/MIPI_rx_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

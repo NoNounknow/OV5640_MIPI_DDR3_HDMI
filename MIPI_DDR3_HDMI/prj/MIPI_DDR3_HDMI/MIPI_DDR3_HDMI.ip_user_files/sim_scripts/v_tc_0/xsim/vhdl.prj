@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../MIPI_DDR3_HDMI.gen/sources_1/ip/v_tc_0/sim/v_tc_0.vhd" \
+
+nosort

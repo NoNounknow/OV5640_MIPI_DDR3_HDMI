@@ -1,0 +1,35 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MIPI_rx_top_behav xil_defaultlib.MIPI_rx_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'riic_data' [D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/IIC_Control/ov5640_cfg.v:230]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" Line 1. Module Mipi_Byte_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" Line 1. Module Mipi_Byte_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Lane_Alignment.v" Line 1. Module Mipi_Lane_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v" Line 1. Module Mipi_Unpacket_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/ECC_Calculate_Haming.v" Line 1. Module ECC_Calculate_Haming doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" Line 1. Module Mipi_Byte_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Byte_Alignment.v" Line 1. Module Mipi_Byte_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Lane_Alignment.v" Line 1. Module Mipi_Lane_Alignment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/Mipi_Unpacket.v" Line 1. Module Mipi_Unpacket_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/three_verilog/MIPI_DDR3_HDMI/rtl/MIPI_rx/ECC_Calculate_Haming.v" Line 1. Module ECC_Calculate_Haming doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ov5640_iic
+Compiling module xil_defaultlib.ov5640_cfg
+Compiling module unisims_ver.IBUFDS(IOSTANDARD="LVDS_25")
+Compiling module unisims_ver.BUFIO
+Compiling module unisims_ver.BUFR(BUFR_DIVIDE="4")
+Compiling module unisims_ver.ISERDESE2(DATA_WIDTH=8,INTERFACE...
+Compiling module xil_defaultlib.Mipi_dphy_rx
+Compiling module xil_defaultlib.Mipi_Byte_Alignment
+Compiling module xil_defaultlib.Mipi_Lane_Alignment
+Compiling module xil_defaultlib.ECC_Calculate_Haming
+Compiling module xil_defaultlib.Mipi_Unpacket_default
+Compiling module xil_defaultlib.MIPI_rx_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MIPI_rx_top_behav

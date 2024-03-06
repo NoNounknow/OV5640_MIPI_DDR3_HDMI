@@ -1,0 +1,2 @@
+ila_1.v,verilog,xil_defaultlib,../../../../MIPI_DDR3_HDMI.gen/sources_1/ip/ila_1_1/sim/ila_1.v,incdir="../../../../MIPI_DDR3_HDMI.gen/sources_1/ip/ila_1_1/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

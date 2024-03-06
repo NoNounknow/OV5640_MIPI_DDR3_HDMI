@@ -1,0 +1,98 @@
+$date
+        2023-Nov-23 17:19:56
+$end
+$version
+        Vivado v2022.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 8 " O_Mipi_CSI_Byte_Lane0_Data [7:0] $end
+$var reg 8 * O_Mipi_CSI_Byte_Lane1_Data [7:0] $end
+$var reg 1 2 _TRIGGER $end
+$var reg 1 3 _WINDOW $end
+$var reg 1 4 _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 *
+02
+13
+04
+$end
+#8
+b1000 "
+#9
+b100000 "
+#10
+b10000000 "
+#11
+b0 "
+#12
+b10 "
+#13
+b1000 "
+#14
+b100000 "
+#15
+b10000000 "
+#16
+b0 "
+#17
+b10 "
+#18
+b1000 "
+#19
+b0 "
+b110000 *
+#20
+b11000000 *
+#21
+b0 *
+#22
+b11 *
+#23
+b1100 *
+#24
+b110000 *
+#25
+b11000000 *
+#26
+b0 *
+#27
+b11 *
+#28
+b1100 *
+#29
+b110000 *
+#30
+b0 *
+#405
+b10 *
+#406
+b1000 *
+#407
+b100000 *
+#408
+b10000000 *
+#409
+b0 *
+#410
+b10 *
+#411
+b1000 *
+#412
+b100000 *
+#413
+b10000000 *
+#414
+b0 *
+#415
+b10 *
+#416
+b0 *
+#1024
+12

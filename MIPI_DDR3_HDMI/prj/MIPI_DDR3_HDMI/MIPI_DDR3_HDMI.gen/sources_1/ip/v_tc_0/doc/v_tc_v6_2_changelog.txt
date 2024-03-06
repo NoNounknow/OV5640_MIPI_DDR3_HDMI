@@ -1,0 +1,275 @@
+2022.2:
+ * Version 6.2 (Rev. 5)
+ * General: Arbitary Resolution logic is optimized for timing improvements[applicable only for HDMI 2.1]
+
+2022.1.2:
+ * Version 6.2 (Rev. 4)
+ * No changes
+
+2022.1.1:
+ * Version 6.2 (Rev. 4)
+ * No changes
+
+2022.1:
+ * Version 6.2 (Rev. 4)
+ * Bug Fix: Updated the VBLANK and VSYNC positioning in the line as per CTA-861G
+ * Bug Fix: timing detection issue is fixed when det_clken is not always high.
+ * New Feature: Enabled core for non divisible by 8 resolutions
+
+2021.2.2:
+ * Version 6.2 (Rev. 3)
+ * No changes
+
+2021.2.1:
+ * Version 6.2 (Rev. 3)
+ * No changes
+
+2021.2:
+ * Version 6.2 (Rev. 3)
+ * New Feature: Enabled core for non divisible by 4 HBLANK resolutions
+
+2021.1.1:
+ * Version 6.2 (Rev. 2)
+ * No changes
+
+2021.1:
+ * Version 6.2 (Rev. 2)
+ * General: Support for framebuffer-less passthrough system in adaptive sync mode
+
+2020.3:
+ * Version 6.2 (Rev. 1)
+ * No changes
+
+2020.2.2:
+ * Version 6.2 (Rev. 1)
+ * No changes
+
+2020.2.1:
+ * Version 6.2 (Rev. 1)
+ * No changes
+
+2020.2:
+ * Version 6.2 (Rev. 1)
+ * General: Adaptive Sync support for DisplayPort TX SS
+
+2020.1.1:
+ * Version 6.2
+ * No changes
+
+2020.1:
+ * Version 6.2
+ * No changes
+
+2019.2.2:
+ * Version 6.2
+ * No changes
+
+2019.2.1:
+ * Version 6.2
+ * No changes
+
+2019.2:
+ * Version 6.2
+ * Simplified VIDEO_MODE defaults to 3 standard resolutions.
+ * Updated the fine adjustment values for resolutions.
+
+2019.1.3:
+ * Version 6.1 (Rev. 13)
+ * No changes
+
+2019.1.2:
+ * Version 6.1 (Rev. 13)
+ * No changes
+
+2019.1.1:
+ * Version 6.1 (Rev. 13)
+ * No changes
+
+2019.1:
+ * Version 6.1 (Rev. 13)
+ * No changes
+
+2018.3.1:
+ * Version 6.1 (Rev. 13)
+ * No changes
+
+2018.3:
+ * Version 6.1 (Rev. 13)
+ * Bug Fix: Added active lines register to support SD-SDI resolutions which have a different number of active lines per field.
+
+2018.2:
+ * Version 6.1 (Rev. 12)
+ * No changes
+
+2018.1:
+ * Version 6.1 (Rev. 12)
+ * No changes
+
+2017.4:
+ * Version 6.1 (Rev. 12)
+ * General: Added validation checks to customization GUI.
+
+2017.3:
+ * Version 6.1 (Rev. 11)
+ * Bug Fix: Fixed CDC handshaking problem for back-to-back AXI4-Lite transactions.
+ * Bug Fix: Fixed de-assertion of vblank to allow it to coincide with last pixel of the back-porch
+
+2017.2:
+ * Version 6.1 (Rev. 10)
+ * No changes
+
+2017.1:
+ * Version 6.1 (Rev. 10)
+ * No changes
+
+2016.4:
+ * Version 6.1 (Rev. 10)
+ * Bug Fix: Fixed problem with AXI4-Lite error response being generated for low resolution video formats.
+ * Feature Enhancement: Added support for 8K video formats.
+
+2016.3:
+ * Version 6.1 (Rev. 9)
+ * Bug Fix: Fixed GUI to prevent disablement of all generation and detection signals.
+ * Bug Fix: Fixed GUI for synchronize generator to detector or fsync_in behavior.
+
+2016.2:
+ * Version 6.1 (Rev. 8)
+ * Revision change in one or more subcores
+
+2016.1:
+ * Version 6.1 (Rev. 7)
+ * Supported devices and production status are now determined automatically, to simplify support for future devices
+ * Fixed clock enable to produce correct video timing
+
+2015.4.2:
+ * Version 6.1 (Rev. 6)
+ * No changes
+
+2015.4.1:
+ * Version 6.1 (Rev. 6)
+ * No changes
+
+2015.4:
+ * Version 6.1 (Rev. 6)
+ * No changes
+
+2015.3:
+ * Version 6.1 (Rev. 6)
+ * Fixed interlaced video field generation
+ * Fixed interlaced video and field-id polarity detection
+ * Added generator source select for interlaced video to control register
+ * Fixed vsync generation porch width offset issue
+ * Added support for Zynq and Kintex UltraScale+ devices
+ * IP revision number added to HDL module, library, and include file names, to support designs with both locked and upgraded IP instances
+ * Revision change in one or more subcores
+
+2015.2.1:
+ * Version 6.1 (Rev. 5)
+ * No changes
+
+2015.2:
+ * Version 6.1 (Rev. 5)
+ * No changes
+
+2015.1:
+ * Version 6.1 (Rev. 5)
+ * Fixed vertical timing generation issue when generator clock enable is toggled
+ * Fixed field-id timing generation issue when switching between progressive and interlaced
+ * Fixed redundant ASYNC_REG attribute to reduce synthesis warning
+ * Enabled out-of-context clock frequency setting by adding FREQ_HZ parameter for clock interfaces
+ * Kintex ultrascale production support
+
+2014.4.1:
+ * Version 6.1 (Rev. 4)
+ * No changes
+
+2014.4:
+ * Version 6.1 (Rev. 4)
+ * Encrypted source files are concatenated together to reduce the number of files and to reduce simulator compile time
+ * XA Artix-7 (Automotive) Production support
+
+2014.3:
+ * Version 6.1 (Rev. 3)
+ * IP modified to use new sub-cores, no functional changes
+
+2014.2:
+ * Version 6.1 (Rev. 2)
+ * Internal change management process enhancements, no functional changes
+
+2014.1:
+ * Version 6.1 (Rev. 1)
+ * Virtex UltraScale Pre-Production support
+ * Defense-grade Artix-7Q, Kintex-7Q, Virtex-7Q and Zynq-7000Q Production support
+ * Internal device family name change, no functional changes
+ * Bypass and test patterns modes for the video cores that use the v_tc_v6_2 core now work reliably
+
+2013.4:
+ * Version 6.1
+ * Added support for interlaced video
+ * Repackaged to improve internal automation
+ * Added Kintex UltraScale Pre-Production support
+ * Added Automotive Zynq 7000 Production support
+
+2013.3:
+ * Version 6.0 (Rev. 2)
+ * Reduced warnings in synthesis and simulation
+ * Added support for Cadence IES Simulator
+ * Added support for Synopsys VCS Simulator
+
+2013.2:
+ * Version 6.0 (Rev. 1)
+ * Update default constraints for clock period and priority
+ * Fixed CDC issue recorded in AR55980
+
+2013.1:
+ * Version 6.0
+ * Vivado Only Release
+ * There have been no functional or interface changes to this IP.  The version number has changed to support unique versioning in Vivado starting with 2013.1.
+ * Updated GUI Layout
+ * Added Out-of-Context XDC Constraints
+
+(c) Copyright 2009 - 2022 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.

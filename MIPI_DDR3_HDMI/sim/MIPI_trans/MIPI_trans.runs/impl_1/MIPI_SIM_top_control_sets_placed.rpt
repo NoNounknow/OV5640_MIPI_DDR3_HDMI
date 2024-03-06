@@ -1,0 +1,83 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Dec 12 20:41:01 2023
+| Host         : LAPTOP-H1858A6E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file MIPI_SIM_top_control_sets_placed.rpt
+| Design       : MIPI_SIM_top
+| Device       : xc7a75t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     5 |
+|    Minimum number of control sets                        |     5 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    13 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     5 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             102 |           39 |
+| No           | No                    | Yes                    |              20 |            5 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              25 |            8 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+|         Clock Signal         |                     Enable Signal                    |         Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------+------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+|  Mipi_CSI_Byte_CLK_IBUF_BUFG | Mipi_Byte_Alignment_Inst_0/Byte_Offset[3]_i_1_n_0    | Mipi_Unpacket_Inst0/I_Top_Rst_n |                1 |              5 |         5.00 |
+|  Mipi_CSI_Byte_CLK_IBUF_BUFG | Mipi_Byte_Alignment_Inst_1/Byte_Offset[3]_i_1__0_n_0 | Mipi_Unpacket_Inst0/I_Top_Rst_n |                2 |              5 |         2.50 |
+|  Mipi_CSI_Byte_CLK_IBUF_BUFG | Mipi_Lane_Alignment_Inst0/E[0]                       | Mipi_Unpacket_Inst0/I_Top_Rst_n |                5 |             15 |         3.00 |
+|  Mipi_CSI_Byte_CLK_IBUF_BUFG |                                                      | Mipi_Unpacket_Inst0/I_Top_Rst_n |                5 |             20 |         4.00 |
+|  Mipi_CSI_Byte_CLK_IBUF_BUFG |                                                      |                                 |               39 |            102 |         2.62 |
++------------------------------+------------------------------------------------------+---------------------------------+------------------+----------------+--------------+
+
+
